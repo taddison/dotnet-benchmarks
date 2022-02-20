@@ -13,7 +13,7 @@ public class DictionaryBenchmark
   private static readonly Dictionary<string, int> _dictionary = new Dictionary<string, int>();
   private const string KEY_STRING = "abcdefghijklmnopqrstuvwxyz";
   private const int MAX_KEY_LENGTH = 200;
-  private const int KEY_LENGTH_INCREMENT = 100;
+  private const int KEY_LENGTH_INCREMENT = 25;
 
   [GlobalSetup]
   public void Setup()
